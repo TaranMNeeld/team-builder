@@ -32,7 +32,7 @@ const Form = props => {
             />
             <label htmlFor="title">Email </label>
             <input
-                type="text"
+                type="email"
                 name="email"
                 value={member.email}
                 onChange={changeHandler}
