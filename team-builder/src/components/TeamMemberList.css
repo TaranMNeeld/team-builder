@@ -1,0 +1,10 @@
+.members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    min-width: 200px;
+    border: 2px solid black;
+    margin: 3% auto 3% auto;
+}
