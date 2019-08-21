@@ -1,11 +1,12 @@
 import React from "react";
-import "./TeamMemberList.css";
+import "./TeamMembersList.css";
 
-const TeamList = props => {
+const TeamMembersList = props => {
     console.log(props);
+
     return (
         <div className="members">
-            {props.teamList.map(member => {
+            {props.teamMembersList.map(member => {
                 return (
                     <div key={member.id} className="member">
                         <h2>Name: {member.name}</h2>
@@ -17,4 +18,4 @@ const TeamList = props => {
         </div>
     );
 };
-export default TeamList;
+export default TeamMembersList;
