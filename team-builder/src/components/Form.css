@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 250px;
+}
+
+input {
+    border: 2px solid grey;
+    margin-bottom: 2%;
+}
+
+input:hover {
+    background: lightblue;
+}
+
+.add-member {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
